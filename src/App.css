@@ -110,8 +110,7 @@
 
 
 @media (max-width: 600px) {
-  .calculator-keyboard {
-    height: 50px;
-    font-size: 18px;
+  .App {
+    height: 600px;
   }
 }
