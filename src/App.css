@@ -1,4 +1,10 @@
 .App {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  /* Přidání tmavého překryvu pro lepší čitelnost textu */
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -12,6 +18,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+
 
 .nadpis {
   font-size: 48px;
@@ -61,12 +69,6 @@
   margin-left: 524px;
 }
 
-.obrazek-wrapper {
-  flex: 1;
-  min-width: 300px;
-  margin: 10px;
-  text-align: center;
-}
 
 .obrazek2 {
   width: 100%;
@@ -95,15 +97,9 @@
   margin-left: 524px;
 }
 
-.obrazek2-wrapper {
-  flex: 1;
-  min-width: 300px;
-  margin: 10px;
-  text-align: center;
-}
-
 .popis1 {
   font-size: 20px;
+  color: #000;
   padding: 20px;
   margin: -200px 0;
   margin-left: -100px;
@@ -114,30 +110,11 @@
 
 .popis2 {
   font-size: 20px;
+  color: #000;
   padding: 20px;
   margin: -250px 0;
   margin-right: -100px;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .nadpis {
-    font-size: 36px;
-  }
-
-  .popis {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 480px) {
-  .nadpis {
-    font-size: 28px;
-  }
-
-  .popis {
-    font-size: 16px;
-  }
 }
