@@ -173,6 +173,7 @@ body {
 
   .obrazek1 {
     margin-left: 10px;
+    margin-top: -50px;
   }
 
   .obrazek2 {
@@ -182,6 +183,5 @@ body {
   .popis1,
   .popis2 {
     font-size: 16px;
-
   }
 }
