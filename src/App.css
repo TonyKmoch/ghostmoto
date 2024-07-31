@@ -22,7 +22,7 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 4px;
-  background: linear-gradient(135deg, #6e45e2, #88d3ce);
+  background: linear-gradient(135deg, #6e45e2 0%, #8e6bd1 25%, #a491c0 50%, #c2b7af 75%, #88d3ce 100%);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
