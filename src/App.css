@@ -145,16 +145,6 @@ body {
 }
 
 
-/* Popis pro desktop */
-.popis-desktop {
-  display: block;
-}
-
-/* Popis pro mobil */
-.popis-mobile {
-  display: none;
-}
-
 @media (max-width: 768px) {
   .nadpis {
     font-size: 36px;
@@ -195,17 +185,7 @@ body {
 
   .popis1,
   .popis2 {
-    font-size: 16px;
-
-    /* Popis pro desktop */
-    .popis-desktop {
-      display: block;
-    }
-
-    /* Popis pro mobil */
-    .popis-mobile {
-      display: none;
-    }
+    font-size: 10px;
 
   }
 
