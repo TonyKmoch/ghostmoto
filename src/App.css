@@ -1,9 +1,4 @@
 .App {
-  max-width: 800px;
-  margin: 50px auto;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.5);
-  /* Přidání tmavého překryvu pro lepší čitelnost textu */
   border-radius: 10px;
   text-align: center;
 }
