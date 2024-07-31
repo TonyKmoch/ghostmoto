@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react"
 import kx250Image from './image/kx250.jpg'; // Import obrázku
 import ttr250 from './image/ttr250.webp'
 
