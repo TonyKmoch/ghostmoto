@@ -14,6 +14,96 @@
 }
 
 .nadpis {
-  font-size: 30px;
-  color: blue;
+  font-size: 48px;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  margin: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background: linear-gradient(135deg, #6e45e2, #88d3ce);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.nadpis:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.obrazek1 {
+  width: 100%;
+  max-width: 400px;
+  border: 3px solid #000;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin: 20px auto;
+  /* Původní odsazení */
+  margin-left: 150px;
+  /* Posun obrázku doleva o 20px */
+  margin-top: 0px;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.obrazek1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.obrazek1:active {
+  transform: scale(2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin-left: 524px;
+}
+
+.obrazek2 {
+  width: 100%;
+  max-width: 440px;
+  border: 3px solid #000;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin: 20px auto;
+  /* Původní odsazení */
+  margin-right: 100px;
+  /* Posun obrázku doprava o 20px */
+  margin-top: 30px;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.obrazek2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.obrazek2:active {
+  transform: scale(2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin-left: 524px;
+}
+
+.popis1 {
+  font-size: 20px;
+  padding: 20px;
+  margin: -200px 0;
+  margin-left: -100px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.popis2 {
+  font-size: 20px;
+  padding: 20px;
+  margin: -250px 0;
+  margin-right: -100px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
 }
