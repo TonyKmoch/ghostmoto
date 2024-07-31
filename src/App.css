@@ -185,4 +185,8 @@ body {
   .popis2 {
     font-size: 16px;
   }
+
+  .popis-mobile {
+    display: block;
+  }
 }
