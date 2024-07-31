@@ -46,7 +46,7 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
   margin: 20px auto;
   /* Původní odsazení */
-  margin-left: 150px;
+  margin-left: 150px auto;
   /* Posun obrázku doleva o 20px */
   margin-top: 0px;
   display: block;
@@ -73,7 +73,7 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
   margin: 20px auto;
   /* Původní odsazení */
-  margin-right: 100px;
+  margin-right: 100px auto;
   /* Posun obrázku doprava o 20px */
   margin-top: 30px;
   display: block;
