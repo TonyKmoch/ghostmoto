@@ -167,8 +167,8 @@ body {
 
   .obrazek1,
   .obrazek2 {
-    max-width: 100px;
-    margin: auto;
+    max-width: 130px;
+    margin: 10px;
   }
 
   .obrazek1 {
