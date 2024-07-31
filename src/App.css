@@ -14,10 +14,14 @@
   }
 }
 
-
+body {
+  margin: 0;
+  overflow-x: hidden;
+  /* Skryje vodorovný posuvník */
+}
 
 .nadpis {
-  font-size: 48px;
+  font-size: 60px;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
   padding: 20px;
@@ -58,10 +62,9 @@
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
-.obrazek1:active {
-  transform: scale(2);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  margin-left: 524px;
+.obrazek1-wrapper {
+  position: relative;
+  display: inline-block;
 }
 
 
@@ -86,12 +89,6 @@
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
-.obrazek2:active {
-  transform: scale(2);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  margin-left: 524px;
-}
-
 .popis1 {
   font-size: 20px;
   color: #000;
@@ -112,4 +109,11 @@
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .obrazek {
+    max-width: 300px;
+  }
 }
